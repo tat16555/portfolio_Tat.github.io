@@ -1,0 +1,160 @@
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web-app">Web Apps</button>
+                <button class="filter-btn" data-filter="api">APIs</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web-app">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Task Management System" />
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" aria-label="View project">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                            <circle cx="12" cy="12" r="3"/>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="portfolio-link" aria-label="View code">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <polyline points="16,18 22,12 16,6"/>
+                                            <polyline points="8,6 2,12 8,18"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Task Management System</h3>
+                            <p class="portfolio-description">
+                                A comprehensive project management tool built with Laravel and Vue.js. 
+                                Features real-time collaboration, task tracking, and team management.
+                            </p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Socket.IO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600" alt="E-commerce Platform" />
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" aria-label="View project">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                            <circle cx="12" cy="12" r="3"/>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="portfolio-link" aria-label="View code">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <polyline points="16,18 22,12 16,6"/>
+                                            <polyline points="8,6 2,12 8,18"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">E-commerce Platform</h3>
+                            <p class="portfolio-description">
+                                Full-featured online store with payment integration, inventory management, 
+                                and admin dashboard. Built for scalability and performance.
+                            </p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">Stripe</span>
+                                <span class="tech-tag">Redis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="api">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=600" alt="API Gateway" />
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" aria-label="View project">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                            <circle cx="12" cy="12" r="3"/>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="portfolio-link" aria-label="View code">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <polyline points="16,18 22,12 16,6"/>
+                                            <polyline points="8,6 2,12 8,18"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">REST API Gateway</h3>
+                            <p class="portfolio-description">
+                                Microservices architecture with API gateway, authentication, 
+                                rate limiting, and comprehensive documentation using OpenAPI.
+                            </p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">JWT</span>
+                                <span class="tech-tag">OpenAPI</span>
+                                <span class="tech-tag">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web-app">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600" alt="CRM System" />
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" aria-label="View project">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                            <circle cx="12" cy="12" r="3"/>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="portfolio-link" aria-label="View code">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <polyline points="16,18 22,12 16,6"/>
+                                            <polyline points="8,6 2,12 8,18"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">CRM Dashboard</h3>
+                            <p class="portfolio-description">
+                                Customer relationship management system with analytics, 
+                                lead tracking, and automated workflows for sales teams.
+                            </p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Chart.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
