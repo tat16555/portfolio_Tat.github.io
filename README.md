@@ -1,4 +1,4 @@
-# Alex Thompson - PHP Developer Portfolio
+#PHP Developer Portfolio
 
 A modern, responsive portfolio website showcasing PHP development skills and projects.
 
